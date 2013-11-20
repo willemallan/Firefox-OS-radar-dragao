@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="static/css/base.css">
+    </head>
+    <body>
+
+        <section id="header">
+            <header>
+                <h1>Radar do Dragão</h1>
+            </header>
+
+        </section>
+
+        <audio id="audio1">
+                <source src="static/audio/on.ogg" type="audio/ogg" />
+                <source src="static/audio/on.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="audio2" loop="loop">
+                <source src="static/audio/radar.ogg" type="audio/ogg" />
+                <source src="static/audio/radar.mp3" type="audio/mpeg" />
+        </audio>
+
+        <section id="radar">
+            <a id="ligar" class="off">on</a>
+            <span id="localizacao"></span>
+        </section>
+        <section id="resultado"></section>
+
+        <script src="static/js/global.js"></script>
+    </body>
+</html>

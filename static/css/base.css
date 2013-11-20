@@ -1,0 +1,88 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial;
+    background: #FFF;
+    overflow: hidden;
+}
+
+#radar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-image:url('/static/images/fundo.png');
+    height: 300px;
+    z-index: 9;
+    position: relative;
+}
+
+.on {
+    background-image:url('/static/images/on.png');
+    width: 65px;
+    height: 40px;
+    top: 40;
+    margin-left: 75px;
+    margin-top:10px;
+    cursor: pointer;
+    position: absolute;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 78px;
+}
+
+.off {
+    background-image:url('/static/images/off.png');
+    width: 65px;
+    height: 40px;
+    top: 40;
+    cursor: pointer;
+    position: absolute;
+    text-indent: -119988px;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1px;
+    margin-left: 76px;
+}
+
+.localizacao {
+    background-image:url('/static/images/amarelo.png');
+    width: 10px;
+    height: 10px;
+    margin-top: 164px;
+    margin-left: 144px;
+    position: absolute;
+    z-index: 10;
+}
+
+#resultado {
+    background: #333;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    height: 100px;
+    font-size: 14px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#header {
+    background-color: orange;
+}
+
+#header header h1 {
+    padding: 10px;
+}
+
+#background {
+    padding: 5px;
+}
