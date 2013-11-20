@@ -1,15 +1,32 @@
 {
-    "name": "Radar do Dragão",
-    "description": "Encontre sua localização.",
+    "name": "Rastreador",
+    "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização.",
     "version": "0.1",
     "launch_path": "/index.html",
-    "slug": "radar-dragao",
-    "default_language": "pt-BR",
-    "default_locale": "pt-BR",
     "developer": {
         "name": "Willem Allan",
         "url": "http://www.willemallan.com.br"
     },
+    "default_locale": "pt-BR",
+    "locales": {
+        "en": {
+            "name": "Rastreador",
+            "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
+        },
+        "pt-BR": {
+            "name": "Rastreador",
+            "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
+        },
+        "en-US": {
+            "name": "Rastreador",
+            "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
+        }
+    },
+    "permissions": {
+        "geolocation": {
+          "description": "Marking out user location"
+        }
+  },
     "icons": {
         "32": "/static/images/icon32.png",
         "60": "/static/images/icon60.png",
@@ -17,24 +34,5 @@
         "120": "/static/images/icon120.png",
         "128": "/static/images/icon128.png",
         "256": "/static/images/icon256.png"
-    },
-    "locales": {
-        "en": {
-            "name": "Radar do Dragão",
-            "description": "Encontre sua localização."
-        },
-        "pt_BR": {
-            "name": "Radar do Dragão",
-            "description": "Encontre sua localização."
-        },
-        "en-US": {
-            "name": "Radar do Dragão",
-            "description": "Encontre sua localização."
-        }
-    },
-    "permissions": {
-        "geolocation": {
-          "description": "Marking out user location"
-        }
-  }
+    }
 }
