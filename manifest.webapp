@@ -1,5 +1,5 @@
 {
-    "name": "Rastreador",
+    "name": "Radar do Dragão",
     "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização.",
     "version": "0.1",
     "launch_path": "/index.html",
@@ -10,23 +10,23 @@
     "default_locale": "pt-BR",
     "locales": {
         "en": {
-            "name": "Rastreador",
-            "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
+            "name": "Dragon Radar",
+            "description": "Radar simulator Dragon Dragon Ball. Click the button to the radar shows their location."
         },
         "pt-BR": {
-            "name": "Rastreador",
+            "name": "Radar do Dragão",
             "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
         },
         "en-US": {
-            "name": "Rastreador",
-            "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
+            "name": "Dragon Radar",
+            "description": "Radar simulator Dragon Dragon Ball. Click the button to the radar shows their location."
         }
     },
     "permissions": {
         "geolocation": {
           "description": "Marking out user location"
         }
-  },
+    },
     "icons": {
         "32": "/static/images/icon32.png",
         "60": "/static/images/icon60.png",
