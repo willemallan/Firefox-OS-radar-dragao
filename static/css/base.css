@@ -52,17 +52,6 @@ body {
     margin-left: 76px;
 }
 
-/*@-moz-keyframes blink {
-    0%{
-        opacity:1;
-    }
-    50%{
-        opacity:0;
-    } 100%{
-        opacity:1;
-    }
-}*/
-
 .localizacao {
     background-image:url('/static/images/amarelo.png');
     width: 10px;
@@ -71,13 +60,6 @@ body {
     margin-left: 144px;
     position: absolute;
     z-index: 10;
-
-    -moz-transition:all 1s ease-in-out;
-    -webkit-transition:all 1s ease-in-out;
-    -o-transition:all 1s ease-in-out;
-    -ms-transition:all 1s ease-in-out;
-    transition:all 1s ease-in-out;
-    /*-moz-animation:blink normal 2s infinite ease-in-out;*/
 }
 
 #resultado {
