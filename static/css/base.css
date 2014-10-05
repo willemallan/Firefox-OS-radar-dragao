@@ -13,6 +13,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     background-image:url('/static/images/fundo.png');
+    background-repeat: none;
     height: 300px;
     z-index: 9;
     position: relative;

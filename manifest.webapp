@@ -1,38 +1,38 @@
 {
-    "name": "Radar do Dragão",
-    "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização.",
-    "version": "0.2",
-    "launch_path": "/index.html",
-    "developer": {
-        "name": "Willem Allan",
-        "url": "http://www.willemallan.com.br"
+  "name": "Radar do Dragão",
+  "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização.",
+  "version": "0.2",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Willem Allan",
+    "url": "http://www.willemallan.com.br"
+  },
+  "default_locale": "pt-BR",
+  "locales": {
+    "en": {
+      "name": "Dragon Radar",
+      "description": "Radar simulator Dragon Dragon Ball. Click the button to the radar shows their location."
     },
-    "default_locale": "pt-BR",
-    "locales": {
-        "en": {
-            "name": "Dragon Radar",
-            "description": "Radar simulator Dragon Dragon Ball. Click the button to the radar shows their location."
-        },
-        "pt-BR": {
-            "name": "Radar do Dragão",
-            "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
-        },
-        "en-US": {
-            "name": "Dragon Radar",
-            "description": "Radar simulator Dragon Dragon Ball. Click the button to the radar shows their location."
-        }
+    "pt-BR": {
+      "name": "Radar do Dragão",
+      "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização."
     },
-    "permissions": {
-        "geolocation": {
-          "description": "Marking out user location"
-        }
-    },
-    "icons": {
-        "32": "/static/images/icon32.png",
-        "60": "/static/images/icon60.png",
-        "90": "/static/images/icon90.png",
-        "120": "/static/images/icon120.png",
-        "128": "/static/images/icon128.png",
-        "256": "/static/images/icon256.png"
+    "en-US": {
+      "name": "Dragon Radar",
+      "description": "Radar simulator Dragon Dragon Ball. Click the button to the radar shows their location."
     }
+  },
+  "permissions": {
+    "geolocation": {
+      "description": "Marking out user location"
+    }
+  },
+  "icons": {
+    "32": "/static/images/icon32.png",
+    "60": "/static/images/icon60.png",
+    "90": "/static/images/icon90.png",
+    "120": "/static/images/icon120.png",
+    "128": "/static/images/icon128.png",
+    "256": "/static/images/icon256.png"
+  }
 }

@@ -1,3 +1,5 @@
+screen.mozLockOrientation("portrait-primary");
+
 botao = document.getElementById('ligar');
 audio1 = document.getElementById('audio1');
 audio2 = document.getElementById('audio2');
