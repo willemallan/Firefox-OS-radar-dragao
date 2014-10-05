@@ -1,7 +1,7 @@
 {
   "name": "Radar do Dragão",
   "description": "Simulador de um radar do Dragão do Dragon Ball. Clique no botão do radar para mostra sua localização.",
-  "version": "0.2",
+  "version": "0.3",
   "launch_path": "/index.html",
   "developer": {
     "name": "Willem Allan",
